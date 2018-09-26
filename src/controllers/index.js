@@ -29,12 +29,6 @@ for (let key in routeConfigs) {
     middlewares.push(controller[route.handler])
     routerObject[route.method.toLowerCase()](route.url, ...middlewares)
   })
-
-  routerObject['get']('/', function (ctx) {
-    ctx.body = {
-      message: 'ok'
-    }
-  })
 }
 
 module.exports = routerObject
