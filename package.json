@@ -12,9 +12,12 @@
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^6.0.0",
+    "jsonwebtoken": "^8.3.0",
     "kcors": "^2.2.2",
     "koa": "^2.5.3",
     "koa-body": "^4.0.4",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.9.0",
+    "mongoose": "^5.3.1"
   }
 }
